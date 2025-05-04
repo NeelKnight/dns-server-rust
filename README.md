@@ -1,37 +1,33 @@
-[![progress-banner](https://backend.codecrafters.io/progress/dns-server/a9a2eb48-fafd-4992-b0b4-db69bf50be9f)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+[![progress-banner](https://backend.codecrafters.io/progress/dns-server/a9a2eb48-fafd-4992-b0b4-db69bf50be9f)](https://app.codecrafters.io/users/NeelKnight)
 
-This is a starting point for Rust solutions to the
-["Build Your Own DNS server" Challenge](https://app.codecrafters.io/courses/dns-server/overview).
+# DNS Server in Rust
 
-In this challenge, you'll build a DNS server that's capable of parsing and
-creating DNS packets, responding to DNS queries, handling various record types
-and doing recursive resolve. Along the way we'll learn about the DNS protocol,
-DNS packet format, root servers, authoritative servers, forwarding servers,
-various record types (A, AAAA, CNAME, etc) and more.
+This project is an implementation of a DNS (Domain Name System) server written in Rust. DNS is a hierarchical and distributed name service that translates human-readable domain names (like github.com) into IP addresses (like 20.207.73.82) for computers, services and other resources use to communicate over the Internet or other IP-based networks. Learn more on ["Wikipedia"](https://en.wikipedia.org/wiki/Domain_Name_System)
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
 
-# Passing the first stage
+## 🧠 What I’m Building
 
-The entry point for your `your_program.sh` implementation is in `src/main.rs`.
-Study and uncomment the relevant code, and push your changes to pass the first
-stage:
+A DNS Server capable of:
 
-```sh
-git commit -am "pass 1st stage" # any msg
-git push origin master
-```
+- Parsing and constructing DNS packets
+- Responding to DNS queries
+- Handling various record types
+- Performing recursive resolution
 
-Time to move on to the next stage!
 
-# Stage 2 & beyond
+## 🔍 Topics Explored
 
-Note: This section is for stages 2 and beyond.
+Along the way, I intend to explore more about:
 
-1. Ensure you have `cargo (1.85)` installed locally
-1. Run `./your_program.sh` to run your program, which is implemented in
-   `src/main.rs`. This command compiles your Rust project, so it might be slow
-   the first time you run it. Subsequent runs will be fast.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+- The DNS protocol
+- DNS packet format and parsing
+- Root name servers
+- Authoritative DNS servers
+- Forwarding and caching resolvers
+- Various Record types: A, AAAA, CNAME, and possibly more!
+
+
+## 🔗 Resources
+
+- ["codecrafters.io"](codecrafters.io)
+- ["Wikipedia: Domain Name System"](https://en.wikipedia.org/wiki/Domain_Name_System)
