@@ -3,7 +3,7 @@ use std::net::UdpSocket;
 fn main() {
     println!("[LOG] This is a DNS server implementation in Rust!");
 
-    let udp_socket = UdpSocket::bind("0.0.0.0:2053").expect("Failed to bind to address");
+    let udp_socket = UdpSocket::bind("127.0.0.1:2053").expect("Failed to bind to address");
     let mut buf = [0; 512];
 
     loop {
