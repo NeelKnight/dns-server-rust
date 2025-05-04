@@ -31,3 +31,5 @@ Along the way, I intend to explore more about:
 
 - ["codecrafters.io"](codecrafters.io)
 - ["Wikipedia: Domain Name System"](https://en.wikipedia.org/wiki/Domain_Name_System)
+- ["RFC 1035"]("https://datatracker.ietf.org/doc/html/rfc1035")
+- ["dnsguide"](https://github.com/EmilHernvall/dnsguide/blob/b52da3b32b27c81e5c6729ac14fe01fef8b1b593/chapter1.md)
